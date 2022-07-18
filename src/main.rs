@@ -47,9 +47,9 @@ pub fn app() -> Html {
 
     html! {
         <>
-        <header>
-        <img src="img/nibodh.png" alt="Nibodh" />
-            <h1><a href="https://nibodhdaware.me" target="_blank">{"@nibodhdaware"}</a></h1>
+            <header>
+                <img src="/img/nibodh.png" alt="image" width="100"/>
+                <h1>{"@nibodhdaware"}</h1>
             </header>
             {links}
         </>

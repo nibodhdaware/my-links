@@ -13,22 +13,22 @@ pub fn app() -> Html {
         Link {
             link: "https://www.youtube.com/channel/UCWfwqQyLv4PGJxP6ONWPVwA".to_string(),
             text: "Youtube".to_string(),
-            img: "/img/youtube.png".to_string(),
+            img: "/img/youtube-min.png".to_string(),
         },
         Link {
             link: "https://github.com/nibodhdaware".to_string(),
             text: "GitHub".to_string(),
-            img: "/img/github.png".to_string(),
+            img: "/img/github-min.png".to_string(),
         },
         Link {
             link: "https://twitter.com/nibodhdaware".to_string(),
             text: "Twitter".to_string(),
-            img: "/img/twitter.png".to_string(),
+            img: "/img/twitter-min.png".to_string(),
         },
         Link {
             link: "https://www.instagram.com/torpidurite_._".to_string(),
             text: "Instagram".to_string(),
-            img: "/img/instagram.png".to_string(),
+            img: "/img/instagram-min.png".to_string(),
         },
     ];
 
@@ -48,7 +48,7 @@ pub fn app() -> Html {
     html! {
         <>
             <header>
-                <img src="/img/nibodh.png" alt="image" width="100"/>
+                <img src="/img/nibodh-min.png" alt="image" width="100"/>
                 <h1>{"@nibodhdaware"}</h1>
             </header>
             {links}

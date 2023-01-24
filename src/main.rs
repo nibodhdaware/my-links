@@ -30,11 +30,6 @@ pub fn app() -> Html {
             text: "Twitter".to_string(),
             img: "/img/twitter-min.png".to_string(),
         },
-        Link {
-            link: "https://www.instagram.com/nibodhjdaware".to_string(),
-            text: "Instagram".to_string(),
-            img: "/img/instagram-min.png".to_string(),
-        },
     ];
 
     let links = links
